@@ -6,6 +6,7 @@
 }
 
 body {
+    position: relative;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -103,4 +104,52 @@ body {
     background: #3bf3b6;
     color: #fff;
     margin-top: 1rem;
+    user-select: none;
+}
+
+.choice > div {
+    pointer-events: none;
+    user-select: none;
+}
+
+.overlay {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #00000060;
+}
+
+.modal {
+    background: black;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+}
+
+.modal-text, 
+.modal-button {
+    margin: 1rem;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.modal-button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    background: navy;
+    padding: 1rem;
+}
+
+.modal-text {
+    background: #ff000099;
+    font-size: 1.75rem;
+    font-weight: bolder;
+    padding: 1rem;
 }
