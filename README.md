@@ -1,10 +1,5 @@
 # rock-paper-scissors
 
-# A simple rock paper scissors game played on console
+# A simple rock paper scissors game played between the human and the computer
 
-# Pseudocode
-1. Get computer choice
-2. Get human choice
-3. Declare human and computer score
-4. Play the round
-5. Repeat till 5 rounds
+# Website is live at (https://samarpanrana95.github.io/rock-paper-scissors/)
